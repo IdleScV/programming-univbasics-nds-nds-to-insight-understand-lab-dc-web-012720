@@ -12,5 +12,6 @@ def print_first_directors_movie_titles
   count = 0;
   while directors_database[0][:movies][count] do
     print directors_database[0][:movies][count][:title]
+    count +=
   end
 end
